@@ -2,7 +2,7 @@ body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
     color: black;
-    background-color: #ffc;
+    background-color: white;
     margin: 20px;
     padding: 0;
 }
@@ -15,18 +15,18 @@ p {
 
 
 h1 {
-    color: #ffc;
-    background-color: #900;
-    font-size: 2em;
+    color: white;
+    background-color: grey;
+    font-size: 3em;
     margin: 0;
     margin-bottom: 7px;
     padding: 4px;
     font-style: italic;
     text-align: center;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     border-bottom-style: solid;
     border-bottom-width: 0.5em;
-    border-bottom-color: #c00;
+    border-bottom-color: black;
 }
 
 h2 {
@@ -59,10 +59,17 @@ strong {
 }
 
 li {
-    color: #900;
-    font-style: italic;
+    color: black;
+    font-family: arial;
+    font-size: 1.25em;
 }
 
 table {
     background-color: #ccc;
+}
+
+ul {
+    color: black;
+    font-family: arial;
+    font-size: 1.25em;
 }
