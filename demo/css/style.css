@@ -92,6 +92,11 @@
 	#hometext
 	{
 		font-size: 0.8m;
+		margin-bottom: 0em;
+	}
+
+	#oneembottom
+	{
 		margin-bottom: 1em;
 	}
 
@@ -148,7 +153,38 @@
 				background: #141414;
 				color: #FFF !important;
 			}
-	
+	#homebuttons
+	{
+		margin-top: 1em;
+		margin-bottom:1em;
+	}
+
+	#nomargins
+	{
+		margin-top: 0em;
+		margin-bottom: 0em;
+	}
+
+	.vertline
+	{
+		border-left: 1px dotted grey;
+		height: 100%;
+		position: absolute;
+		margin-left: 0px;
+		top: 0;
+	}
+
+	.centerheader
+	{
+		position: relative;
+		margin-bottom: 0em;
+		margin-left: 10em;
+	}
+	.center
+	{
+		margin-top: 1em;
+		margin-left: 4.5em;
+	}
 
 	/* Sections/Articles */
 	
@@ -224,6 +260,7 @@
 			
 		#logos
 		{
+			margin-top:5px;
 			padding-right:30px;
 		}
 		#logos:hover{
