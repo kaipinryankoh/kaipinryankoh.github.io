@@ -186,6 +186,16 @@
 		margin-left: 4.5em;
 	}
 
+	#logocontainer
+	{
+		width:100%;
+	}
+
+	#projectdesc
+	{
+		margin-bottom: 0.5em;
+	}
+
 	/* Sections/Articles */
 	
 		section,
@@ -266,7 +276,17 @@
 		#logos:hover{
 			opacity: 0.75;
 		}
-
+		#cs188
+		{
+			margin-top:5px;
+			padding-right:30px;
+			width:100%;
+			height:100%;
+		}
+		#cs188:hover
+		{
+			opacity: 0.75;
+		}
 	/* Lists */
 
 		ul.default
@@ -356,6 +376,12 @@
 	{
 		overflow: hidden;
 		border-top: 1px solid #dbdbdb;
+	}
+
+	iframe
+	{
+		display: block;
+		margin: auto;
 	}
 
 /*********************************************************************************/
